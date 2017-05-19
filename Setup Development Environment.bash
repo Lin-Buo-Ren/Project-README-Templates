@@ -56,7 +56,11 @@ init(){
 		--local\
 		include.path\
 		../.gitconfig
-	git submodule update --init --recursive
+	git submodule\
+		update\
+		--init\
+		--recursive\
+		--depth 1
 	printf "\n%s: Done, happy hacking! :-)\n" "${RUNTIME_EXECUTABLE_NAME}"
 	exit 0
 }; declare -fr init

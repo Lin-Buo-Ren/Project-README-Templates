@@ -11,6 +11,7 @@ init(){
 		--target-directory\
 		"$(determine_install_directory)"\
 		"${RUNTIME_EXECUTABLE_DIRECTORY}/"*.template.markdown\
+		"${RUNTIME_EXECUTABLE_DIRECTORY}/"*.desktop\
 		&& printf "Installation successful.\n"\
 		|| printf "Error: Installation failed.\n" 1>&2
 	exit "${?}"

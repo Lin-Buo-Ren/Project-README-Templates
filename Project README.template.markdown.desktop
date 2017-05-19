@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Project README.markdown
+Name[zh_TW]=專案 README.markdown
+Type=Link
+Icon=text-markdown
+URL=Project README.template.markdown
+Comment=README document for a project
+Comment[zh_TW]=用於專案的介紹文件(README)

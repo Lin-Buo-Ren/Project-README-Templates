@@ -60,7 +60,7 @@ init(){
 		update\
 		--init\
 		--recursive
-	printf "\n%s: Done, happy hacking! :-)\n" "${RUNTIME_EXECUTABLE_NAME}"
+	printf "\n%s: All set, happy hacking! :-)\n" "${RUNTIME_EXECUTABLE_NAME}"
 	exit 0
 }; declare -fr init
 init "${@}"

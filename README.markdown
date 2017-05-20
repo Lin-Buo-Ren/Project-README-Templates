@@ -1,5 +1,6 @@
 # 專案介紹文件範本<br>Project README Templates
-本專案製作開發者可快速客製之專案介紹文件範本，並提供 GNU/Linux 作業系統檔案管理軟體中新增檔案選單支援
+本專案製作開發者可快速客製之專案介紹文件範本，並提供 GNU/Linux 作業系統檔案管理軟體中新增檔案選單支援  
+This project implements project READMEs for developer to customize-fast, and provides support for new file menu in GNU/Linux operating system's file management application
 
 <https://github.com/Lin-Buo-Ren/Project-README-Templates>
 

@@ -59,8 +59,7 @@ init(){
 	git submodule\
 		update\
 		--init\
-		--recursive\
-		--depth 1
+		--recursive
 	printf "\n%s: Done, happy hacking! :-)\n" "${RUNTIME_EXECUTABLE_NAME}"
 	exit 0
 }; declare -fr init
